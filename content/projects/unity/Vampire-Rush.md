@@ -4,8 +4,6 @@ date = 2024-09-13T11:07:23+03:00
 draft = true
 +++
 
-## Vampire Rush
-
 This a mobile game I developed as a freelancer.
 I integrated multiple firebase services:
 
