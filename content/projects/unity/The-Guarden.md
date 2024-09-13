@@ -4,6 +4,7 @@ date = 2024-09-13T10:08:18+03:00
 draft = true
 repo = "https://github.com/SpeedyE1780/TheGuarden"
 demo = "https://www.youtube.com/embed/N34Xm_W78WA?si=6OLdAtU2uq4AgT6_"
+layout = "unity"
 +++
 
 The Guarden is a tower defence game with the addition of farming and life-sim elements.

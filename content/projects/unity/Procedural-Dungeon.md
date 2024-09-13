@@ -4,6 +4,7 @@ date = 2024-09-13T10:23:29+03:00
 draft = true
 repo = "https://github.com/SpeedyE1780/Procedural-Dungeon"
 demo = "https://www.youtube.com/embed/g_nJrFur_cA?si=nrdu0yfx4Hu5ifbp"
+layout = "unity"
 +++
 
 This is project generates dungeon procedurally using the Wave Function Collapse algorithm.

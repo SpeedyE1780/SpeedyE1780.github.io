@@ -2,6 +2,7 @@
 title = 'Card Game'
 date = 2024-09-13T11:25:19+03:00
 draft = true
+layout = "unity"
 +++
 
 This is a freelance project I took. It's WebGL Unity Card Game.
