@@ -1,0 +1,24 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+        {{ if isset .Params "repo"}}
+        <h1 class="f1">
+            {{ .Title }} <a href={{ .Params.repo }}> (Repo) </a>
+          </h1>
+        {{ else }}
+        <h1 class="f1">
+          {{ .Title }}
+        </h1>
+        {{ end }}
+      </header>
+      {{ if isset .Params "demo" }}
+      <iframe width="560" height="315" src={{ .Params.demo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      {{ end }}
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+        {{ .Content }}
+      </div>
+    </article>
+  </div>
+{{ end }}
