@@ -1,0 +1,9 @@
+{{ if isset .Params "repo"}}
+<h1 class="f1">
+    {{ .Title }} <a href={{ .Params.repo }}> (Repo) </a>
+  </h1>
+{{ else }}
+<h1 class="f1">
+  {{ .Title }}
+</h1>
+{{ end }}

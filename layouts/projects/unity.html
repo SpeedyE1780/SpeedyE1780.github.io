@@ -3,19 +3,9 @@
   <div class="flex-l mt2 mw8 center">
     <article class="center cf pv5 ph3 ph4-ns mw7">
       <header>
-        {{ if isset .Params "repo"}}
-        <h1 class="f1">
-            {{ .Title }} <a href={{ .Params.repo }}> (Repo) </a>
-          </h1>
-        {{ else }}
-        <h1 class="f1">
-          {{ .Title }}
-        </h1>
-        {{ end }}
+      {{ partial "project-title.html" . }}
       </header>
-      {{ if isset .Params "demo" }}
-      <iframe width="560" height="315" src={{ .Params.demo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      {{ end }}
+      {{ partial "project-demo.html" . }}
       <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
         {{ .Content }}
       </div>
@@ -24,11 +14,7 @@
         <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/unity/unity-original.svg" width="40" height="40">
         <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/csharp/csharp-original.svg" width="40" height="40">
 
-        {{if isset .Params "tools"}}
-        {{range .Params.tools}}
-        <img src="{{ . }}" width="40" height="40">
-        {{end}}
-        {{end}}
+        {{ partial "project-tools.html" . }}
         
       </div>
     </article>
