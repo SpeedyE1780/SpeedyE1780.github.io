@@ -3,6 +3,7 @@ title = 'Vampire Rush'
 date = 2024-09-13T11:07:23+03:00
 draft = true
 layout = "unity"
+tools = ["images/tools/firebase-original.svg"]
 +++
 
 This a mobile game I developed as a freelancer.
