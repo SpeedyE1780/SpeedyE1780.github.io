@@ -1,5 +1,6 @@
 {{if isset .Params "tools"}}
 {{range .Params.tools}}
-  <img src="{{ . }}" width="40" height="40">
+{{ $imageLink := partial "func/GetImage.html" . }}
+  <img src="{{ $imageLink }}" width="40" height="40">
 {{end}}
 {{end}}
