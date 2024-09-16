@@ -1,0 +1,26 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+      {{ partial "project-title.html" . }}
+      </header>
+      {{ partial "project-demo.html" . }}
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+        {{ .Content }}
+      </div>
+      <div>
+        <h2>Tools</h2>
+
+        {{ $cplusplus := partial "func/GetImage.html" "images/tools/cplusplus-original.svg" }}
+        {{ $unreal := partial "func/GetImage.html" "images/tools/unrealengine-original.svg" }}
+        
+        <img src="{{ $unreal }}" width="40" height="40">
+        <img src="{{ $cplusplus }}" width="40" height="40">
+
+        {{ partial "project-tools.html" . }}
+        
+      </div>
+    </article>
+  </div>
+{{ end }}
