@@ -1,0 +1,24 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+      {{ partial "project-title.html" . }}
+      </header>
+      {{ partial "project-demo.html" . }}
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+        {{ .Content }}
+      </div>
+      <div>
+        <h2>Tools</h2>
+
+        {{ $csharp := partial "func/GetImage.html" "images/tools/csharp-original.svg" }}
+        
+        <img src="{{ $csharp }}" width="40" height="40">
+
+        {{ partial "project-tools.html" . }}
+        
+      </div>
+    </article>
+  </div>
+{{ end }}
