@@ -4,7 +4,7 @@ date = 2020-01-22
 repo = "https://github.com/SpeedyE1780/Ability-System-Realtime"
 demo = "https://www.youtube.com/embed/3oYKFMxBtsA?si=LZAsYDH1_8YsZHPE"
 layout = "unity"
-summary = "This is a rework of the turn-based ability system I did for the job interview"
+summary = "This is a rework of the turn-based ability system made with Unity I did for the job interview"
 +++
 
 This is a rework of the turn-based ability system I did for the job interview
