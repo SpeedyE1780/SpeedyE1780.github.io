@@ -10,7 +10,6 @@
         {{ .Content }}
       </div>
       <div>
-        <h2>Tools</h2>
 
         {{ $defaultTools := slice "images/tools/unrealengine-original.svg" "images/tools/cplusplus-original.svg"}}
         {{ partial "project-tools.html" (dict "context" . "defaultTools" $defaultTools) }}

@@ -1,5 +1,7 @@
 {{ $imageSize := 64 }}
 
+<h2>Tools</h2>
+
 {{ range .defaultTools}}
 {{ $imageLink := partial "func/GetImage.html" . }}
   <img src="{{ $imageLink }}" width="{{ $imageSize }}" height="{{ $imageSize }}" style="object-fit: contain;">
