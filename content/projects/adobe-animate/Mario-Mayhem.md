@@ -5,7 +5,7 @@ draft = true
 layout = "adobe-animate"
 repo = "https://github.com/SpeedyE1780/Mario-Mayhem"
 demo = "https://www.youtube.com/embed/sCjNSpN9SAw?si=gAFjoU9dk7Fnn1ZO"
-summary = "This a catch the fruit game with a super mario theme made with Adobe Animate"
+summary = "Catch the fruit game with a super mario theme made with Adobe Animate"
 +++
 
 This was the first project of my multimedia course during my undergrad.

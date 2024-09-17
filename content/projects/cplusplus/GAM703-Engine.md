@@ -6,7 +6,7 @@ layout = "cplusplus"
 repo = "https://github.com/SpeedyE1780/GAM703-Engine"
 demo = "https://www.youtube.com/embed/HUGRwKW7c3E?si=3flrAnwEYL-shi6y"
 tools = ["images/tools/cmake-original.svg", "images/tools/opengl-original.svg", "images/tools/doxygen.svg"]
-summary = "This a C++ Open GL game engine I developed for my masters"
+summary = "C++ Open GL game engine I developed for my masters"
 +++
 
 This a C++ Open GL game engine I developed for my Digital Games Technology course during my postgraduate.
