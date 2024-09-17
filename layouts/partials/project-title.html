@@ -1,6 +1,7 @@
 {{ if isset .Params "repo"}}
 <h1 class="f1">
-    {{ .Title }} <a href={{ .Params.repo }}> (Repo) </a>
+  {{ $github := partial "func/GetImage.html" "images/tools/github-original.svg" }}
+    {{ .Title }} <a href={{ .Params.repo }}> <img src="{{ $github }}" width="40" height="40"> </a>
   </h1>
 {{ else }}
 <h1 class="f1">
