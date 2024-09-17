@@ -1,7 +1,6 @@
 +++
 title = 'Tic Tac Toe'
 date = 2019-12-12
-draft = true
 layout = "python"
 repo = "https://github.com/SpeedyE1780/AI-MiniMax-Tic-Tac-Toe"
 summary = "This is a Python implementation of the Minimax Algorithm using Tic Tac Toe"

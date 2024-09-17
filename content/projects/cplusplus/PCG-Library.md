@@ -1,7 +1,6 @@
 +++
 title = 'PCG Library'
 date = 2024-09-01
-draft = true
 layout = "cplusplus"
 repo = "https://github.com/SpeedyE1780/PCG-Tool"
 demo = "https://www.youtube.com/embed/videoseries?si=Qc-ZjgTxP2TnKMe9&amp;list=PLdX38AkXi8wAdDMCTZNRRvFEx8e7FYPco"

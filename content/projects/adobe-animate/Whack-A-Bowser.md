@@ -1,7 +1,6 @@
 +++
 title = 'Whack a Bowser'
 date = 2018-10-27
-draft = true
 layout = "adobe-animate"
 repo = "https://github.com/SpeedyE1780/Whack-A-Bowser"
 demo = "https://www.youtube.com/embed/ZAxis9Nh5iU?si=EJk8whErvWbng6Fd"

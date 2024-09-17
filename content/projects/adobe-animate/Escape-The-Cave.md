@@ -1,7 +1,6 @@
 +++
 title = 'Escape the Cave'
 date = 2018-12-22
-draft = true
 layout = "adobe-animate"
 repo = "https://github.com/SpeedyE1780/Escape-The-Cave"
 demo = "https://www.youtube.com/embed/bbFHEoSlX0Q?si=-ec5Pyo_5aSTASvX"

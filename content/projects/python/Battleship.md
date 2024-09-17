@@ -1,7 +1,6 @@
 +++
 title = 'Battleship'
 date = 2019-03-11
-draft = true
 layout = "python"
 repo = "https://github.com/SpeedyE1780/Battleship/tree/master"
 demo = "https://www.youtube.com/embed/fltml2Fnt-0?si=jHaoQ8BaG8chqORT"

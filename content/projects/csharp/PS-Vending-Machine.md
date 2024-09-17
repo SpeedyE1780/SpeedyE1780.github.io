@@ -1,7 +1,6 @@
 +++
 title = 'PS Vending Machine'
 date = 2019-12-15
-draft = true
 layout = "csharp"
 repo = "https://github.com/SpeedyE1780/PS-Vending-Machine/tree/master"
 summary = "This is a demo of touch screen vending machine used to buy games"

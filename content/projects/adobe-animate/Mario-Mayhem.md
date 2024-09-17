@@ -1,7 +1,6 @@
 +++
 title = 'Mario Mayhem'
 date = 2018-11-24
-draft = true
 layout = "adobe-animate"
 repo = "https://github.com/SpeedyE1780/Mario-Mayhem"
 demo = "https://www.youtube.com/embed/sCjNSpN9SAw?si=gAFjoU9dk7Fnn1ZO"

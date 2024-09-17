@@ -1,7 +1,6 @@
 +++
 title = 'Tower Defence'
 date = 2019-04-15
-draft = true
 layout = "python"
 repo = "https://github.com/SpeedyE1780/Tower-Defence"
 demo = "https://www.youtube.com/embed/DdHPaMom3Qc?si=rDSs9O2-9aEK-5q1"

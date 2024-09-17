@@ -1,7 +1,6 @@
 +++
 title = 'GAM703 Engine'
 date = 2023-12-01
-draft = true
 layout = "cplusplus"
 repo = "https://github.com/SpeedyE1780/GAM703-Engine"
 demo = "https://www.youtube.com/embed/HUGRwKW7c3E?si=3flrAnwEYL-shi6y"
