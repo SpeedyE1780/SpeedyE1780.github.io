@@ -1,9 +1,9 @@
 +++
 title = 'Vampire Rush'
-date = 2024-09-13T11:07:23+03:00
-draft = true
+date = 2020-09-01
 layout = "unity"
 tools = ["images/tools/firebase-original.svg"]
+summary = "This is an endless runner made with Unity I developed as a freelancer"
 +++
 
 This a mobile game I developed as a freelancer.
