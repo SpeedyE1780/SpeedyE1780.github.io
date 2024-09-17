@@ -11,12 +11,9 @@
       </div>
       <div>
         <h2>Tools</h2>
-
-        {{ $animate := partial "func/GetImage.html" "images/tools/animate.png" }}
         
-        <img src="{{ $animate }}" width="40" height="40">
-
-        {{ partial "project-tools.html" . }}
+        {{ $defaultTools := slice "images/tools/animate.png" }}
+        {{ partial "project-tools.html" (dict "context" . "defaultTools" $defaultTools ) }}
         
       </div>
     </article>

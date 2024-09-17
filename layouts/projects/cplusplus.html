@@ -12,11 +12,8 @@
       <div>
         <h2>Tools</h2>
 
-        {{ $cplusplus := partial "func/GetImage.html" "images/tools/cplusplus-original.svg" }}
-        
-        <img src="{{ $cplusplus }}" width="40" height="40">
-
-        {{ partial "project-tools.html" . }}
+        {{ $defaultTools := slice "images/tools/cplusplus-original.svg" }}
+        {{ partial "project-tools.html" (dict "context" . "defaultTools" $defaultTools) }}
         
       </div>
     </article>

@@ -12,13 +12,8 @@
       <div>
         <h2>Tools</h2>
 
-        {{ $csharp := partial "func/GetImage.html" "images/tools/csharp-original.svg" }}
-        {{ $unity := partial "func/GetImage.html" "images/tools/unity-original.svg" }}
-        
-        <img src="{{ $unity }}" width="40" height="40">
-        <img src="{{ $csharp }}" width="40" height="40">
-
-        {{ partial "project-tools.html" . }}
+        {{ $defaultTools := slice "images/tools/unity-original.svg" "images/tools/csharp-original.svg"}}
+        {{ partial "project-tools.html" (dict "context" . "defaultTools" $defaultTools) }}
         
       </div>
     </article>

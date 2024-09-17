@@ -1,6 +1,13 @@
-{{if isset .Params "tools"}}
-{{range .Params.tools}}
+{{ $imageSize := 40 }}
+
+{{ range .defaultTools}}
 {{ $imageLink := partial "func/GetImage.html" . }}
-  <img src="{{ $imageLink }}" width="40" height="40" style="object-fit: contain;">
+  <img src="{{ $imageLink }}" width="{{ $imageSize }}" height="{{ $imageSize }}" style="object-fit: contain;">
+{{end}}
+
+{{if isset .context.Params "tools"}}
+{{range .context.Params.tools}}
+{{ $imageLink := partial "func/GetImage.html" . }}
+  <img src="{{ $imageLink }}" width="{{ $imageSize }}" height="{{ $imageSize }}" style="object-fit: contain;">
 {{end}}
 {{end}}
