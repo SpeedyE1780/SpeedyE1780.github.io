@@ -1,10 +1,12 @@
 +++
 title = 'Battleship'
-date = 2024-09-16T11:16:18+03:00
+date = 2019-03-11
 draft = true
 layout = "python"
 repo = "https://github.com/SpeedyE1780/Battleship/tree/master"
 demo = "https://www.youtube.com/embed/fltml2Fnt-0?si=jHaoQ8BaG8chqORT"
+summary = "This is a battleship game made with tkinter and Python"
 +++
 
+This was my first project for my fundamentals of computer programming with python course during my undergrad.
 This a tkinter app that simulates a battleship game.
