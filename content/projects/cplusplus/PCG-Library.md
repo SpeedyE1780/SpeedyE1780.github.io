@@ -9,7 +9,9 @@ tools = ["images/tools/cmake-original.svg", "images/tools/asciidoc-og.png", "ima
 summary = "C++ library that generates content procedurally"
 +++
 
-The PCG Tool is made up of the C++ DLL library that can be used with C++ and other languages by using the C DLL.
+This was my major project for my postgraduate.
+
+The PCG Library is made up of the C++ DLL library that can be used with C++ and other languages by using the C DLL.
 
 This library can currently be used with C#, Unity, Unreal and Python.
 
